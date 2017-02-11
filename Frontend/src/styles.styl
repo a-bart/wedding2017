@@ -1,0 +1,48 @@
+@import "assets/styles/vendor"
+@import "assets/styles/fonts"
+
+/* You can add global styles to this file, and also import other style files */
+
+body
+  margin: 0
+  font-family: 'Open Sans Condensed', sans-serif
+
+section
+  width: 100%
+  height: 100vh
+
+h1, h2, h3, h4, h5, h6, p
+  -webkit-margin-before: 0
+  -webkit-margin-after: 0
+
+ul
+  margin-bottom: 0
+
+a
+  &:hover, &:focus, &:active
+    text-decoration: none
+
+#welcome-section
+  background-image: url(assets/images/background4.jpg)
+  background-size: cover
+  background-position: center
+
+#timer-section
+  background-image: url(assets/images/background2-dark.jpg)
+  background-size: cover
+  background-position: center
+
+#about-us-section
+  background-color: #fff
+
+/* FullPage styles */
+
+// nav colors:
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span
+  background-color: #b35757
+
+.fp-viewing-welcome #fp-nav
+  display:none
