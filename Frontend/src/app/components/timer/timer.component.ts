@@ -9,7 +9,7 @@ export class TimerComponent implements OnInit {
 
   intervalId = 0;
 
-  givenDate:any = new Date("22 July 2017 09:00");
+  givenDate:any = new Date("22 July 2017 15:30");
   now:any = new Date();
   dateDifference:any = (this.givenDate - this.now);
 
@@ -63,7 +63,7 @@ export class TimerComponent implements OnInit {
       this.minutes_diff = Math.floor(this.dateDifference / units.minutes) - this.hours * 60;
       this.seconds_diff = Math.floor(this.dateDifference / units.seconds) - this.minutes * 60;
 
-      this.week_title = this.declOfNum(this.weeks, ['неделя', 'недели', 'недель']);
+      this.week_title = this.declOfNum(this.weeks, ['неделю', 'недели', 'недель']);
       this.day_title = this.declOfNum(this.days_diff, ['день', 'дня', 'дней']);
       this.hour_title = this.declOfNum(this.hours_diff, ['час', 'часа', 'часов']);
       this.minute_title = this.declOfNum(this.minutes_diff, ['минуту', 'минуты', 'минут']);
@@ -73,6 +73,5 @@ export class TimerComponent implements OnInit {
 
   ngOnInit() {
     this.countdown();
-    console.log(this.declOfNum(25, ['день', 'дня', 'дней']));
   }
 }
