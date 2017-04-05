@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MnFullpageService } from 'ng2-fullpage';
 
 @Component({
@@ -11,7 +11,6 @@ export class WelcomeComponent implements OnInit {
   constructor(private fullpageService: MnFullpageService) { }
 
   onArrowClick() {
-
   }
 
   ngOnInit() {

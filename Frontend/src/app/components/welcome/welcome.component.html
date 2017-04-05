@@ -1,4 +1,15 @@
 <section id="welcome-section">
+  <video
+    poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg"
+    id="welcomeMovie"
+    playsinline
+    autoplay
+    data-keepplaying
+    muted
+    loop
+  >
+    <source src="assets/video/welcome.mp4" type="video/mp4">
+  </video>
   <div class="welcome">
     <h4>Cвадьба</h4>
 		<h1 class="name">Саши</h1>
@@ -10,5 +21,4 @@
     <h6>22.07.2017</h6>
 	</div>
   <i class="arrow-down ion-ios-arrow-thin-down bounce" (click)="fullpageService.moveSectionDown();"></i>
-
 </section>

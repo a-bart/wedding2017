@@ -1,4 +1,3 @@
-import './polyfills.ts';
 import 'jquery';
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
