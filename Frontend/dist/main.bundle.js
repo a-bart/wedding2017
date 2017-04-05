@@ -585,7 +585,7 @@ module.exports = "<section id=\"timer-section\">\r\n  <div class=\"timer\">\r\n 
 /***/ 338:
 /***/ (function(module, exports) {
 
-module.exports = "<section id=\"welcome-section\">\r\n  <video\r\n    poster=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg\"\r\n    id=\"welcomeMovie\"\r\n    playsinline\r\n    autoplay\r\n    data-keepplaying\r\n    muted\r\n    loop\r\n  >\r\n    <source src=\"assets/video/welcome.mp4\" type=\"video/mp4\">\r\n  </video>\r\n  <div class=\"welcome\">\r\n    <h4>Cвадьба</h4>\r\n\t\t<h1 class=\"name\">Саши</h1>\r\n    <h1 class=\"heart\">\r\n      <i class=\"heartbeat fa fa-heart-o\" aria-hidden=\"true\"></i>\r\n    </h1>\r\n    <h1 class=\"name\">Леши</h1>\r\n    <h5>Минск</h5>\r\n    <h6>22.07.2017</h6>\r\n\t</div>\r\n  <i class=\"arrow-down ion-ios-arrow-thin-down bounce\" (click)=\"fullpageService.moveSectionDown();\"></i>\r\n</section>\r\n"
+module.exports = "<section id=\"welcome-section\">\r\n  <video\r\n    id=\"welcomeMovie\"\r\n    playsinline\r\n    autoplay\r\n    data-keepplaying\r\n    muted\r\n    loop\r\n  >\r\n    <source src=\"assets/video/welcome.mp4\" type=\"video/mp4\">\r\n  </video>\r\n  <div class=\"welcome\">\r\n    <h4>Cвадьба</h4>\r\n\t\t<h1 class=\"name\">Саши</h1>\r\n    <h1 class=\"heart\">\r\n      <i class=\"heartbeat fa fa-heart-o\" aria-hidden=\"true\"></i>\r\n    </h1>\r\n    <h1 class=\"name\">Леши</h1>\r\n    <h5>Минск</h5>\r\n    <h6>22.07.2017</h6>\r\n\t</div>\r\n  <i class=\"arrow-down ion-ios-arrow-thin-down bounce\" (click)=\"fullpageService.moveSectionDown();\"></i>\r\n</section>\r\n"
 
 /***/ }),
 
