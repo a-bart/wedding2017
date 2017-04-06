@@ -1,13 +1,16 @@
 <div class="map-description">
   <div class="map-description__content">
+    <div class="image">
+      <img src="../../../assets/images/icons/place-logo2.png">
+    </div>
     <h2>Место</h2>
     <p>ресторан "Эриван"</p>
     <p>г. Минск, 1-й Загородный пер., 3</p>
     <p>22 июля в 15:30</p>
   </div>
-  <div class="cafe">
+  <!-- <div class="cafe">
     <img src="../../../assets/images/street-cafe.jpg">
-  </div>
+  </div> -->
 </div>
 <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]='15' [scrollwheel]='false'>
   <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
