@@ -1,54 +1,68 @@
-video { 
+video
   position: absolute
   top: 50%
   left: 50%
-  min-width: 115%
-  min-height: 115%
+  min-width: 135%
+  min-height: 135%
   width: auto
   height: auto
   z-index: -100
   transform: translateX(-50%) translateY(-50%)
-  background: url('../../../assets/images/background4.jpg') no-repeat
-  background-size: cover
-  background-position: center
-  transition: 1s opacity;
-}
+  // background: url('assets/images/background4.jpg') no-repeat
+  // background-size: cover
+  // background-position: center
+  transition: 1s opacity
+
+  @media (min-width: 1500px)
+    min-width: 135%
+    min-height: 135%
+
+  .loading
+    // background: rgba(0,0,0,0.4) url('../../../assets/images/loaders/facebook.svg') center center no-repeat;
 
 .welcome
   position: absolute
-  width: 100%
   left: 50%
   top: 50%
   transform: translate(-50%,-50%)
   color: #fff
   text-align: center
 
-  .heart
-    margin: 0 10px
+  .names-container
+    display: inline-flex
+    align-items: center
+    margin-bottom: 20px
 
-  .name
-    width: 150px
-    padding: 5px 0
-    border-top: 1px solid rgba(255, 255, 255, 0.3)
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+    .heart
+      margin: 0 10px
+
+    .name
+      width: 180px
+      padding: 5px 0
+      border-top: 1px solid rgba(255, 255, 255, 0.3)
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 
   h1
     font-family: 'Poiret One', cursive
     text-transform: uppercase
-    font-size: 48px
-    margin-bottom: 20px
+    font-size: 55px
+    // margin-bottom: 20px
     display: inline-block
 
   h4
     font-family: 'Lobster', cursive
     margin-bottom: 10px
-    font-size: 22px
+    font-size: 27px
 
   h5
     font-family: 'Playfair Display SC', serif
+    font-size: 16px
     text-transform: uppercase
-    letter-spacing: 0.15em
-    margin-bottom: 10px
+    letter-spacing: 0.19em
+    margin-bottom: 12px
+
+  h6
+    font-size: 14px
 
 .arrow-down
   position: absolute

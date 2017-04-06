@@ -1,48 +1,32 @@
-.about
-  position: absolute
-  width: 100%
-  left: 50%
-  top: 50%
-  transform: translate(-50%,-50%)
-  color: #000
+.text
+  font-family: 'Poiret One', cursive
+  max-width: 200px
   text-align: center
+  color: #fff
+  font-size: 14px
+  text-transform uppercase
+  // -webkit-clip-path: polygon(52% 0, 91% 18%, 100% 58%, 78% 85%, 33% 89%, 0 48%, 10% 20%);
+  // clip-path: polygon(52% 0, 91% 18%, 100% 58%, 78% 85%, 33% 89%, 0 48%, 10% 20%);
 
-  &-title
-    margin-bottom: 20px
-    text-transform: uppercase
+  @media (min-width: 1500px)
+    max-width: 300px
+    font-size: 20px
 
-    &__image
-      margin: 5px 0
+  &.groom
+    position: absolute
+    top: 20%
+    right: 30%
 
-      img
-        width: 30px
+    @media (min-width: 1500px)
+      top: 30%
+      right: 20%
 
-    h2
-      display: inline-block
-      padding: 5px
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+  &.bride
+    position: absolute
+    top: 65%
+    left: 10%
 
-  &-container
-    display: flex
-    justify-content: flex-start
-
-  &-person
-    align-self: flex-start
-    width: 50%
-    padding: 0 15%
-
-    h3
-      margin-bottom: 15px
-      font-size: 16px
-      text-transform: uppercase
-      letter-spacing: 0.080em
-
-    img
-      border-radius: 50%
-      width: 150px
-      margin-bottom: 10px
-
-    &__description
-      font-size: 14px
-      text-align: justify
+    @media (min-width: 1500px)
+      top: 70%
+      left: 8%
 
